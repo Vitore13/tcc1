@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 65px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.menu a {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.butao:hover{
+    transition: .2s;
+    transform: perspective(200px) translateZ(10px);
+    background-color: #555;
+}
+
+.solicitacao-btn {
+    background-color: #ccd1d9;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #ccd1d9;
+    text-decoration: none;
+    
+}
+.solicitacao-btn:hover{
+    transition: .2s;
+    transform: perspective(200px) translateZ(10px);
+    background-color: #ccd1d9;
+}
+
+.content {
+    padding: 20px;
+    background-color: #444;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"], input[type="date"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.entrada, .saida, .Enviar {
+    display: inline-block;
+    padding: 10px 20px;
+
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.entrada {
+    background-color: #a3e635;
+}
+
+.saida {
+    background-color: #f87171;
+}
+.Enviar{
+    margin-left: 49%;
+    background-color: #ccd1d9;
+}
+.Enviar:hover{
+    transition: .2s;
+    transform: perspective(200px) translateZ(10px);
+    background-color: #ccd1d9;
+}

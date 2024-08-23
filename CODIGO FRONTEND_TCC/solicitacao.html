@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockMate</title>
+    <link rel="stylesheet" href="css/socilitacao.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo_fundo_transparente.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <a class="butao" href="dashboard.html">
+                DashBoard
+            </a>
+            <a class="butao" href="registro.html">
+                Registro
+            </a>
+            
+            <a class="butao" href="estoque.html">
+                Estoque
+            </a>
+        </div>
+        <a class="solicitacao-btn" href="solicitacao.html">
+            Solicitação
+        </a>
+    </div>
+    </div>
+    </div>
+    <div class="content">
+        <h2>Dados de identificação:</h2>
+        <form>
+            <div class="form-group">
+                <label for="categoria">Categoria:</label>
+                <input type="text" id="categoria" name="categoria">
+            </div>  
+            <div class="form-group">
+                <label for="item">Item:</label>
+                <input type="text" id="item" name="item">
+            </div>
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="text" id="quantidade" name="quantidade">
+            </div>
+            <div class="form-group">
+                <label for="responsavel">Responsável:</label>
+                <input type="text" id="responsavel" name="responsavel">
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div class="form-group">
+                <label>Tipo de Movimentação:</label>
+                <div class="radio-group">
+                    <label for="entrada" class="entrada">Entrada</label>
+                    <input type="radio" id="entrada" name="movimentacao" value="entrada">
+                    <label for="saida" class="saida">Saída</label>
+                    <input type="radio" id="saida" name="movimentacao" value="saida">
+                    <label for="Enviar" class="Enviar">Enviar</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

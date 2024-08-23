@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque - Stockmate</title>
+    <link rel="stylesheet" href="css/estoque.css">
+</head>
+<body class="">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo_fundo_transparente.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <a class="butao" href="dashboard.html">
+                DashBoard
+            </a>
+            <a class="butao"     href="registro.html">
+                Registro
+            </a>
+            
+            <a class="active" href="estoque.html">
+                Estoque
+            </a>
+        </div>
+        <a class="solicitacao-btn" href="solicitacao.html">
+            Solicitação
+        </a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Pesquisar...">
+        <button class="btn">Gerencia</button>
+    </div>
+    <div class="tab-container">
+        <div class="tab">
+            <button class="close">&times;</button>
+            <div class="content">
+                <h2>Dados de identificação:</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="Nome">Nome:</label>
+                        <input type="text" id="Nome" name="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="Tipo">Tipo:</label>
+                        <input type="text" id="Tipo" name="Tipo">
+                    </div>
+                    <div class="sub">
+                        
+                    </div>
+                    <div class="form-group" id="meupal">
+                        <label for="id">Id:</label>
+                        <input type="text" id="id" name="id">
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo de Movimentação:</label>
+                        <div class="radio-group">
+                            <label for="entrada" class="entrada">Entrada</label>
+                            <input type="radio" id="entrada" name="movimentacao" value="entrada">
+                            <label for="saida" class="saida">Saída</label>
+                            <input type="radio" id="saida" name="movimentacao" value="saida">
+                            <label for="Enviar" class="Enviar">Enviar</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID DO ITEM</th>
+                    <th>ITEM</th>
+                    <th>QUANTIDADE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#379</td>
+                    <td>Martelo</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>#379</td>
+                    <td>Martelo</td>
+                    <td>42</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
